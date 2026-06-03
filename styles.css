@@ -266,3 +266,26 @@ body {
   aspect-ratio: 9 / 16;
   object-fit: cover;
 }
+.hero-copy {
+  position: relative;
+  overflow: hidden;
+  border-radius: 28px;
+  padding: 48px;
+
+  background-image:
+    linear-gradient(
+      rgba(0,0,0,.55),
+      rgba(0,0,0,.75)
+    ),
+    url("./assets/IMG_9804.JPG");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  min-height: 520px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
