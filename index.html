@@ -4,7 +4,6 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Santi Villa Abrille - Culinary Creator</title>
-  <meta name="description" content="Chocolate, recipes, mistakes and process. Culinary Creator by Santi Villa Abrille." />
 
   <link rel="icon" href="./assets/favicon.ico" sizes="any" />
   <link rel="icon" type="image/png" href="./assets/favicon.png" />
@@ -14,15 +13,25 @@
 
   <script crossorigin src="https://cdn.jsdelivr.net/npm/react@18/umd/react.production.min.js"></script>
   <script crossorigin src="https://cdn.jsdelivr.net/npm/react-dom@18/umd/react-dom.production.min.js"></script>
-<script src="https://unpkg.com/antd@5.21.6/dist/antd.min.js"></script>
-<script src="https://unpkg.com/@ant-design/icons@5.4.0/dist/index.umd.min.js"></script>
+
+  <script src="https://unpkg.com/antd@5.21.6/dist/antd.min.js"></script>
+  <script src="https://unpkg.com/@ant-design/icons@5.4.0/dist/index.umd.min.js"></script>
+
   <script src="https://cdn.jsdelivr.net/npm/@babel/standalone@7/babel.min.js"></script>
 </head>
 <body>
+
   <div id="root"></div>
+
+  <script>
+    console.log("antd", window.antd);
+    console.log("icons", window.icons);
+    console.log("antdIcons", window.antdIcons);
+  </script>
 
   <script src="./js/api.js"></script>
   <script type="text/babel" src="./js/HomePage.js"></script>
   <script type="text/babel" src="./script.js"></script>
+
 </body>
 </html>
