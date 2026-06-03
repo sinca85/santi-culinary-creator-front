@@ -40,7 +40,7 @@ body {
 .hero-copy,
 .hero-card,
 .content-card {
-  background: var(--panel) !important;
+  background: var(--panel) ;
   border: 1px solid var(--border) !important;
   border-radius: 28px !important;
   backdrop-filter: blur(18px);
