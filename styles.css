@@ -198,3 +198,46 @@ body {
     grid-template-columns: 1fr;
   }
 }
+.hero-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.hero-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 0 18px;
+  border-radius: 999px;
+  background: #d8a255;
+  color: #1b1208;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.hero-button:hover {
+  color: #1b1208;
+  filter: brightness(1.05);
+}
+
+.hero-card {
+  background: rgba(255,255,255,.075);
+  border: 1px solid rgba(255,255,255,.14);
+  border-radius: 28px;
+  padding: 28px;
+  color: #f7efe3;
+  box-shadow: 0 24px 80px rgba(0,0,0,.24);
+}
+
+.hero-card-title {
+  margin: 0 0 8px;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.hero-card-muted {
+  color: #b7aa9a;
+}
