@@ -9,7 +9,7 @@ window.HomePage = function HomePage(){
           </p>
 
           <h1>
-            Chocolate, recipes, mistakes and process.
+            Santi Villa Abrille
           </h1>
 
           <p className="hero-subtitle">
