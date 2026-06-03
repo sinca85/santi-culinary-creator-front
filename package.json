@@ -1,0 +1,16 @@
+{
+  "name": "santi-culinary-public",
+  "version": "1.0.0",
+  "description": "Public front for Santi Villa Abrille - Culinary Creator. Reads public recipe/content items from MongoDB.",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "mongodb": "^7.2.0"
+  },
+  "devDependencies": {
+    "vercel": "^48.0.0"
+  }
+}
