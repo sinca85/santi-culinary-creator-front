@@ -23,7 +23,7 @@ window.HomePage = function HomePage(){
           <div className="hero-links">
             <a
               className="hero-button"
-              href="https://www.instagram.com/santivillabrille.creator/"
+              href="https://www.instagram.com/santivillaabrille.creator/"
               target="_blank"
               rel="noreferrer"
             >
@@ -32,7 +32,7 @@ window.HomePage = function HomePage(){
 
             <a
               className="hero-button"
-              href="https://www.youtube.com/@santivillabrille.creator"
+              href="https://www.youtube.com/@santivillaabrille.creator"
               target="_blank"
               rel="noreferrer"
             >
