@@ -50,18 +50,12 @@ window.HomePage = function HomePage(){
           </div>
         </div>
 
-        <div className="hero-card">
-          <p className="hero-card-title">
-            Santi Villa Abrille
-          </p>
-
-          <p>
-            Culinary Creator
-          </p>
-
-          <p className="hero-card-muted">
-            Bonbons, desserts, recipes and process.
-          </p>
+        <div className="hero-card hero-image-card">
+          <img
+            src="./assets/story_final.png"
+            alt="Santi Villa Abrille"
+            className="hero-image"
+          />
         </div>
       </section>
     </main>

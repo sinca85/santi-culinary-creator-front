@@ -241,3 +241,28 @@ body {
 .hero-card-muted {
   color: #b7aa9a;
 }
+.hero-image-card {
+  padding: 0;
+  overflow: hidden;
+}
+
+.hero-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 24px;
+}
+.hero-image-card {
+  padding: 0;
+  overflow: hidden;
+  max-width: 420px;
+  margin-left: auto;
+}
+
+.hero-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  object-fit: cover;
+}
